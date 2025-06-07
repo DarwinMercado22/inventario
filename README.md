@@ -2,15 +2,16 @@
 
 Esta api esta creada utilizando FastAPI, middleware, pydantic,HTML, Boostrap, Css, Javascrip.
 
+# INTEGRANTES: Darwin Mercado, Alejandro Payares, Fabian Julio
+
 # Nueva implementacion realizada, SQLAlchemy
-# Pasos para que funcione correctamente nuestra API
 
 ## 1. Descargar la carpeta comprimida:
 Al descargar la carpeta, la debemos descomprimir. La cual contiene la API
 
 ## 2. Crear el entorno virtual:
 ```
-python -m venv cafejardin
+python -m venv venv
 ```
 ## 2. Activación  del entorno virtual:
 ```
@@ -24,3 +25,4 @@ pip install -r requirements.txt
 ```
 uvicorn main:app --reload
 ```
+
