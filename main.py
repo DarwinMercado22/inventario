@@ -6,11 +6,12 @@ from models.sqlalchemy_products import Product as ProductSQL
 from models.products import Product as ProductPydantic  # Modelo Pydantic
 from models.users import User as UserPydantic
 from passlib.context import CryptContext
-
+from fastapi.staticfiles import StaticFiles
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 app = FastAPI()
-
+app.mount("/frontend", StaticFiles(directory="frontend"), name="frontend")
+app.mount("/styles", StaticFiles(directory="styles"), name="styles")
 # Crear un usuario
 
 
