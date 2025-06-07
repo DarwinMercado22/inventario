@@ -4,7 +4,6 @@ Esta api esta creada utilizando FastAPI, middleware, pydantic,HTML, Boostrap, Cs
 
 # INTEGRANTES: Darwin Mercado, Alejandro Payares, Fabian Julio
 
-# Nueva implementacion realizada, SQLAlchemy
 
 ## 1. Descargar la carpeta comprimida:
 Al descargar la carpeta, la debemos descomprimir. La cual contiene la API
